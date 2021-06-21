@@ -1,8 +1,8 @@
 'use strict';
-//ert('i am marwan rawashdeh welcome to the guessing game page');
-//alert('If you are a Bollywood fan, leave this page');
-//alert('we just joking with you have a nice time');
-//alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
+alert('i am marwan rawashdeh welcome to the guessing game page');
+alert('If you are a Bollywood fan, leave this page');
+alert('we just joking with you have a nice time');
+alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
 
 
 let first= prompt("do you like watching movies");
