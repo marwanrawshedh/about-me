@@ -1,15 +1,14 @@
 
 
   'use strict';
-  alert('i am marwan rawashdeh welcome to the guessing game page');
+  let sur =prompt('hi what is your nickname?');
+  alert('i am marwan rawashdeh welcome '+sur+' to the guessing game page');
   alert('If you are a Bollywood fan, leave this page');
   alert('we just joking with you have a nice time');
   alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
   
   
-  let first= prompt("do you like watching movies");
-  
-  
+  let first= prompt("Do you think I like movies?");
   
   switch(first.toLowerCase()) {
       case "yes":alert('your answer is correct you will get first star');
@@ -39,7 +38,7 @@
        
        console.log(thir);
        
-       let forth= prompt('is jennifer lawrence better than margot robbie?');
+       let forth= prompt('do you think i like jennifer lawrence more than margot robbie?');
        switch(forth.toLowerCase()) {
           case "yes":alert('your answer is true you will get star');
           document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');
