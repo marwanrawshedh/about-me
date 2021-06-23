@@ -9,7 +9,9 @@
   
   
   let first= prompt("Do you think I like movies?");
-  
+  function q1 (){
+
+
   switch(first.toLowerCase()) {
       case "yes":alert('your answer is correct you will get first star');
       document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');
@@ -17,8 +19,11 @@
         case "no":alert('your answer is false you will not get star');}
         
        console.log(first);
+  }
+  q1()
        
        let sec= prompt('is leonardo dicaprio my favorit actor in hollywood');
+       function q2(){
       switch(sec.toLowerCase()) {
           case "yes":alert('your answer is true you will get star');
           document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');
@@ -27,8 +32,12 @@
             
        
        console.log(sec);
+      }
+      q2()
        
-       let thir= prompt('did you watch inception or the wolf of wall streat?');
+      
+       function q3 (){
+         let thir= prompt('did you watch inception or the wolf of wall streat?');
        switch(thir.toLowerCase()) {
           case "yes":alert('your answer is true you will get star');
           document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');  
@@ -37,8 +46,12 @@
             
        
        console.log(thir);
+       }
+       q3()
+         
        
-       let forth= prompt('do you think i like jennifer lawrence more than margot robbie?');
+       function q4 (){
+          let forth= prompt('do you think i like jennifer lawrence more than margot robbie?');
        switch(forth.toLowerCase()) {
           case "yes":alert('your answer is true you will get star');
           document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');
@@ -47,8 +60,11 @@
             
        
        console.log(forth);
+       }
+       q4 ()
        
-       let fifth=prompt('Is 2015 the best year for movies in the new century?')
+       function q5 (){
+          let fifth=prompt('Is 2015 the best year for movies in the new century?')
        switch(fifth.toLowerCase()) {
           case "no":alert('your answer is true you will get star');
           document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >'); 
@@ -56,8 +72,12 @@
           case "yes":alert('your answer is false you will not get star');}
             
        
-      console.log(fifth); 
-  for(let i=1;i<5;i++){
+      console.log(fifth);
+       }
+       q5 ()
+      
+function q6 (){
+  for(  let i=1;i<5;i++){
      let sixth= prompt('You have four attempts to find the correct number. How many Leonardo movies?');
    
   if(sixth<=29){
@@ -71,12 +91,16 @@
       document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');
      break ;}
   
-     }
+    }
      alert('number of Leonardo movies is 30 ') ;
+   }
+  q6 ()
   
-  let oscar=[1993,2005,2007,2014]
+  function q7 (){
+     let oscar=[1993,2005,2007,2014]
 
-   for(let y=0;y<6;y++){
+
+   for( let y = 0;y<6;y++){
     let sevth= prompt('You have six attempts to find the correct number When did Leonardo DiCaprio nominate for an Oscar?');
     
    if(sevth==oscar[ 0 ]||sevth==oscar[1]||sevth==oscar[2]||sevth==oscar[3]) {
@@ -92,3 +116,5 @@
    
       }
       console.log(oscar);
+   }
+q7()
