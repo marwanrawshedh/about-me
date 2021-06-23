@@ -96,8 +96,8 @@ function q6 (){
    }
   q6 ()
   
+let oscar=[1993,2005,2007,2014]
   function q7 (){
-     let oscar=[1993,2005,2007,2014]
 
 
    for( let y = 0;y<6;y++){
@@ -118,3 +118,4 @@ function q6 (){
       console.log(oscar);
    }
 q7()
+alert( 'DiCaprio nominated in'+oscar)
