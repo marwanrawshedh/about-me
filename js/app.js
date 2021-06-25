@@ -1,11 +1,11 @@
 
 
   'use strict';
-//   let sur =prompt('hi what is your nickname?');
-//   alert('i am marwan rawashdeh welcome '+sur+' to the guessing game page');
-//   alert('If you are a Bollywood fan, leave this page');
-//   alert('we just joking with you have a nice time');
-//   alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
+  let sur =prompt('hi what is your nickname?');
+  alert('i am marwan rawashdeh welcome '+sur+' to the guessing game page');
+  alert('If you are a Bollywood fan, leave this page');
+  alert('we just joking with you have a nice time');
+  alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
   
   var s=0
   let first= prompt("Do you think I like movies?");
