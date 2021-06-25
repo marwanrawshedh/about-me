@@ -1,11 +1,11 @@
 
 
   'use strict';
-  let sur =prompt('hi what is your nickname?');
-  alert('i am marwan rawashdeh welcome '+sur+' to the guessing game page');
-  alert('If you are a Bollywood fan, leave this page');
-  alert('we just joking with you have a nice time');
-  alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
+//   let sur =prompt('hi what is your nickname?');
+//   alert('i am marwan rawashdeh welcome '+sur+' to the guessing game page');
+//   alert('If you are a Bollywood fan, leave this page');
+//   alert('we just joking with you have a nice time');
+//   alert('Please answer using Yes, No If you answer the correct answer, you will get a star');
   
   var s=0
   let first= prompt("Do you think I like movies?");
@@ -24,8 +24,9 @@
 
         break;
         case "no":alert('your answer is false you will not get star');
-        
+        break;
         case "n":alert('your answer is false you will not get star');
+        break;
       }
   }
   q1()
@@ -43,8 +44,12 @@
            document.write('<img src="https://image.pngaaa.com/369/1372369-middle.png" >');
            s++;
             break;
+            
+            case "no":alert('your answer is false you will not get star');
+            break;
             case "n":alert('your answer is false you will not get star');
-          case "no":alert('your answer is false you will not get star');}
+            break;
+         }
             
       
       }
@@ -64,6 +69,7 @@
           s++;
           break;
           case "n":alert('your answer is false you will not get star');
+          break;
           case "no":alert('your answer is false you will not get star');}
             
        
@@ -84,6 +90,7 @@
           break;
 
           case "n":alert('your answer is false you will not get star');
+          break;
           case "no":alert('your answer is false you will not get star');}
             
       
@@ -103,6 +110,7 @@
           break;
 
           case "y":alert('your answer is false you will not get star');
+          break;
           case "yes":alert('your answer is false you will not get star');}
             
        
